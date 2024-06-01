@@ -1,0 +1,2 @@
+# music_metadata_decoder
+基于Windows平台的音频metadata的解码与编辑工具C++
