@@ -9,6 +9,6 @@
 
 ## 实现功能
 1、flac文件metadata读取解析  
-2、flac文件metadata编辑，picture，vorbisComment，streaminfo的相关操作已测试 (其它block大部分flac文件都不会有，懒得找文件测了)  
+2、flac文件metadata编辑，picture，vorbisComment，streaminfo的相关操作已测试，picture信息可以操作封面数据，vorbisComment可以操作标签信息 (其它block大部分flac文件都不会有，懒得找文件测了)  
 3、flac文件另存，flac文件封面图片另存  
 4、其他音频格式解析随缘更新   
