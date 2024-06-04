@@ -1143,8 +1143,6 @@ private:
     /// @brief flac文件标记常量(长度为5，最后包括'\0')
     static constexpr char s_label_flac[] = "fLaC"; 
 
-    bool isValid = true; 
-
     /// @brief STREAMINFO：包含整个比特流的一些信息，如采样率、声道数、采样总数等。他一定是第一个metadata而且必须有。
     StreamInfoMetaBlock::ptr m_streamInfo = nullptr; 
     /// @brief 没有意义的东西，主要用来后期添加其他metadata。
